@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9EADBD47-BCB8-441D-866D-181F72FE8390}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{1FCE9315-8C86-4A6B-AE8C-2E69D9FD4FDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpCodeGenerator</RootNamespace>
-    <AssemblyName>ccg</AssemblyName>
+    <RootNamespace>testProj</RootNamespace>
+    <AssemblyName>testProj</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,11 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CommandLine">
-      <HintPath>C:\Users\sunny\Desktop\CommandLine.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Build" />
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,21 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\Template.cs" />
-    <Compile Include="Infrastructure\Base\DotNetProjectManagmentBase_v4.cs" />
-    <Compile Include="Infrastructure\Implementation\CodeGeneration.cs" />
-    <Compile Include="Infrastructure\Implementation\DotNetProjectManagment_v4.cs" />
-    <Compile Include="Infrastructure\Implementation\TemplateManagement.cs" />
-    <Compile Include="Infrastructure\Interface\ICodeGeneration.cs" />
-    <Compile Include="Infrastructure\Interface\IDotNetProjectManagment.cs" />
-    <Compile Include="Infrastructure\Interface\ITemplateManagement.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Mod\s\Product9283339.cs" />
+    <Compile Include="Mod\s\Product9289.cs" />
+    <Compile Include="Mod\s\Product92e83339.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Folder Include="Mod\s\" />
+    <Folder Include="Mod\s\" />
+    <Folder Include="Mod\s\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,3 +4,5 @@ G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe
 G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
 G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
 G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
+G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\Newtonsoft.Json.dll
+G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\CommandLine.dll

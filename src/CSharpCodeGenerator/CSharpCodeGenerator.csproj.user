@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-f "Mod\s\Product.cs" -t "G:\TMEP\temp1.txt" -p "G:\GitProject\CSharpCodeGenerator\src\testProj\testProj.csproj" -a " cn: product ,  in : IProduct , mn: GetProduct"</StartArguments>
+  </PropertyGroup>
+</Project>

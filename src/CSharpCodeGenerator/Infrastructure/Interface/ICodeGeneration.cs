@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpCodeGenerator.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace CSharpCodeGenerator.Infrastructure.Interface
 {
-    public interface IFileManagement 
+    public interface ICodeGeneration
     {
-        public void Add();
-        public void Remove();
+        string GenerateCode(Template template);
     }
 }

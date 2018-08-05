@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCodeGenerator.Infrastructure.Implementation
+namespace testProj
 {
-    class VSFolderManagment_15
+    public class Class1
     {
     }
 }
