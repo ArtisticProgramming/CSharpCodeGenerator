@@ -55,6 +55,7 @@
     <Compile Include="Infrastructure\Interface\ICodeGeneration.cs" />
     <Compile Include="Infrastructure\Interface\IDotNetProjectManagment.cs" />
     <Compile Include="Infrastructure\Interface\ITemplateManagement.cs" />
+    <Compile Include="Options.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
