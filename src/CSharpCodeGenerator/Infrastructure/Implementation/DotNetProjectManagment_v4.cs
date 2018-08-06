@@ -32,7 +32,7 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
             CreateFile(FullPath, content);
 
             if (Project.Items.FirstOrDefault(i => i.EvaluatedInclude == FullPath) == null)
-                Project.AddItem("Compile", filePath);
+                Project.AddItem("Compile", FullPath);
             Project.Save();
         }
 

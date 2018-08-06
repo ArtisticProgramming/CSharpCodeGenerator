@@ -9,3 +9,6 @@ G:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\CommandLine.
 D:\git\src\CSharpCodeGenerator\bin\Debug\ccg.exe.config
 D:\git\src\CSharpCodeGenerator\obj\Debug\ccg.exe
 D:\git\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
+D:\git\src\CSharpCodeGenerator\bin\Debug\ccg.exe
+D:\git\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
+D:\git\src\CSharpCodeGenerator\bin\Debug\Newtonsoft.Json.dll

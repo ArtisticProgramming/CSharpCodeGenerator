@@ -2,3 +2,6 @@ G:\GitProject\CSharpCodeGenerator\src\testProj\bin\Debug\testProj.dll
 G:\GitProject\CSharpCodeGenerator\src\testProj\bin\Debug\testProj.pdb
 G:\GitProject\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.dll
 G:\GitProject\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.pdb
+D:\git\src\testProj\obj\Debug\testProj.csprojResolveAssemblyReference.cache
+D:\git\src\testProj\obj\Debug\testProj.dll
+D:\git\src\testProj\obj\Debug\testProj.pdb
