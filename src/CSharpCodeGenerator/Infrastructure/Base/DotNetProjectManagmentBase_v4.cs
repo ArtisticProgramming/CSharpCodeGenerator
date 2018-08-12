@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace CSharpCodeGenerator.Infrastructure.Base
 {
-    public class DotNetProjectManagmentBase_v4
+    public class DotNetProjectManagmentBase_v4 :BaseProjectMangment
     {
         public DotNetProjectManagmentBase_v4(string projectPath)
         {
             GetProject(projectPath);
         }
+
         public Microsoft.Build.Evaluation.Project Project { get; set; }
 
         public void GetProject(string ProjectPath)

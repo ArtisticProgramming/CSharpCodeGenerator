@@ -5,3 +5,9 @@ G:\GitProject\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.pdb
 D:\git\src\testProj\obj\Debug\testProj.csprojResolveAssemblyReference.cache
 D:\git\src\testProj\obj\Debug\testProj.dll
 D:\git\src\testProj\obj\Debug\testProj.pdb
+D:\GitProjects\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.csprojAssemblyReference.cache
+D:\GitProjects\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.csproj.CoreCompileInputs.cache
+D:\GitProjects\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.dll
+D:\GitProjects\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.pdb
+D:\GitProjects\CSharpCodeGenerator\src\testProj\bin\Debug\testProj.dll
+D:\GitProjects\CSharpCodeGenerator\src\testProj\bin\Debug\testProj.pdb

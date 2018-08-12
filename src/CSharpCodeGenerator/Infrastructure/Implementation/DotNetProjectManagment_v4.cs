@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSharpCodeGenerator.Infrastructure.Implementation
 {
-    public class DotNetProjectManagment_v4 : DotNetProjectManagmentBase_v4, IDotNetProjectManagment
+    public class DotNetProjectManagment_v4 : DotNetProjectManagmentBase_v4, IProjectManagment
     {
         public DotNetProjectManagment_v4(string projectPath) : base(projectPath)
         {
@@ -22,7 +22,7 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
 
         public void AddFile(string filePath, string content)
         {
-            var FullPath = GetFullPath(filePath);
+            var FullPath = GetFullPath(Project.DirectoryPath, filePath);
             FileInfo realfile = new FileInfo(FullPath);
             var directoryName = filePath.Replace(realfile.Name, "");
             AddFolder(directoryName);
@@ -38,7 +38,7 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
 
         public void AddFolder(string projectFolderPath)
         {
-            var projectFullPath = GetFullPath(projectFolderPath);
+            var projectFullPath = GetFullPath( Project.DirectoryPath , projectFolderPath);
             CreateFolder(projectFullPath);
 
             Project.ReevaluateIfNecessary();
@@ -57,25 +57,5 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
         {
             throw new NotImplementedException();
         }
-
-        public string GetFullPath(string path)
-        {
-            if (path.First() != '\\')
-                path = @"\" + path;
-            var fullPathProject = (Project.DirectoryPath + path).Replace(@"\\", @"\");
-
-            return fullPathProject;
-        }
-
-        private void CreateFile(string fullPath, string content)
-        {
-            File.WriteAllText(fullPath, content);
-        }
-
-        private void CreateFolder(string projectFullPath)
-        {
-            Directory.CreateDirectory(projectFullPath);
-        }
-
     }
 }

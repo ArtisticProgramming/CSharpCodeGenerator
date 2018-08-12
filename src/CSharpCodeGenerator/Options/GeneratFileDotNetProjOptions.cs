@@ -5,10 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCodeGenerator
+namespace CSharpCodeGenerator.Options
 {
-    class Options
+
+    [Verb("gdf", HelpText = "Generate File And Add to the Folder and CSPROJ Meta Data File, Usefull for Dot Net v4 Framwork Programming Fils.")]
+    public class GeneratFileDotNetProjOptions
     {
+
         [Option('f', "filename", Required = true, HelpText = "name of new file")]
         public string FileName { get; set; }
 

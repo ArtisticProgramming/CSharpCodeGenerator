@@ -41,16 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Mod\s\Product9283339.cs" />
-    <Compile Include="Mod\s\Product9289.cs" />
-    <Compile Include="Mod\s\Product92e83339.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mod\s\" />
-    <Folder Include="Mod\s\" />
-    <Folder Include="Mod\s\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

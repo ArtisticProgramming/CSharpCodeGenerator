@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-f "\Queries\Interfaces\IGetMessageQuery.cs" -t "D:\DeveloperAssistant\ccgTemplate\QueriesInterfaceTmpl.txt" -p "C:\Users\jafar\Documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.csproj" -a "ns:Model.Queries.Interfaces.Message,in: IGetMessageQuery,returndto: MessageDto,entrydto: MessageDto"</StartArguments>
+    <StartArguments>gf -f Mod\s\Product92e83339.cs -t D:\DeveloperAssistant\ccgTemplate\DtoTempl.txt -p C:\Users\Glass\source\repos\ConsoleApp1\ConsoleApp1\  -a  "cl: produc,  ns : IProduct"</StartArguments>
   </PropertyGroup>
 </Project>
