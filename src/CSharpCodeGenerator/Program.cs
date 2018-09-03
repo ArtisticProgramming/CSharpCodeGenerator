@@ -12,7 +12,7 @@ namespace CSharpCodeGenerator
 
         static void Main(string[] args)
         {
-            DIRegistration();
+          //  DIRegistration();
             var result = CommandLine.Parser.Default.ParseArguments<GeneratFileOptions, GeneratFileDotNetProjOptions>(args)
                 .WithNotParsed(errs => HandleParseError(errs))
                 .MapResult(

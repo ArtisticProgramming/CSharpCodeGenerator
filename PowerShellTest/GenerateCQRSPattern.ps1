@@ -1,31 +1,25 @@
 #-------config variables--------------------------------------------------------------------------------------------------
-
-$BaseName = "PolicyExceptionReason"
+$BaseName = "PolicyExceptionOpinion"
 $BasedirctoryName="PolicyException"
+
 #---DTO---
+
 $DTOBasedirctoryName="PolicyException"
-$ReturnDTOFileName="PolicyExceptionReasonCardTabDto"
-$EntryDTOFileName="PolicyExceptionReasonQueryDto"
+$ReturnDTOFileName="PolicyExceptionOpinionCardTabDto"
+$EntryDTOFileName="PolicyExceptionOpinionQueryDto"
+# ###################################################################################################################################
 
 #--------------------------------------------------------------APLICATION START---------------------------------------------
-
 $projectFile= "C:\Users\jafar\Source\Repos\BCMLogic core\BcmWebExtension\Model\Model.csproj"
-
 #"C:\Users\jafar\Documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.csproj"
- 
 $tmplateBasePath = "D:\DeveloperAssistant\ccgTemplate\"
-
 $baseNameSpace ="Model."
-
 #------------------------------------------------------------------------------------------------------------------------
-
 $QueryInterface_tempName="QueriesInterfaceTmpl"
 $QueryImplementation_tempName="QueriesImplementationTmpl"
 $returnDto_tempName="DtoTempl"
 $entryDto_tempName="DtoTempl"
-
-# ------------------------------------------------Rerturn DTO MODEL----------------------------------------------------------
-
+# -------------------------------------------Rerturn DTO MODEL----------------------------------------------------------
 
 $returnDto_dirctoryName = $DTOBasedirctoryName
 $returnDto_fileDirectoryPath="\DTO\Models\"+ $returnDto_dirctoryName +"\"
@@ -33,7 +27,6 @@ $returnDto_fileName=$ReturnDTOFileName+"Dto"
 #--------argument-----------
 $returnDto_ns =  $baseNameSpace +"DTO.Models."+$BasedirctoryName
 $returnDto_cl =$returnDto_fileName
-
 
 #---------------------------------------------Entry DTO MODEL-----------------------------------------------------------------
 
@@ -72,9 +65,8 @@ $QueryImplementation_returnDto =$QueryInterface_returnDto
 #using Model.DTO.Models.Shared;
 $QueryImplementation_entryDto =$QueryInterface_entryDto
 
-# -----------------------------------------------------------------------------------------------------------------------------------
+# ###################################################################################################################################
 # -----------------------------------------------------------ARGUMENTS---------------------------------------------------------------
-# -----------------------------------------------------------------------------------------------------------------------------------
 
 $QueryInterface_argument="ns:" + $QueryInterface_ns +
   ",in: " + $QueryInterface_in                      +
@@ -98,8 +90,7 @@ $returnDto_argument="ns:" + $returnDto_ns +
 $entryDto_argument="ns:" + $entryDto_ns + 
  ",cl:" + $entryDto_cl
 
-# -------------------------------------------------------------------------------------------------------------------------------------
-# -------------------------------------------------------------------------------------------------------------------------------------
+# ###################################################################################################################################
 
 $QueryInterface_fileFullName = $QueryInterface_fileDirectoryPath + $QueryInterface_fileName+".cs"
 $QueryInterface_templateFileName= $tmplateBasePath + $QueryInterface_tempName +".txt"
@@ -120,8 +111,7 @@ $entryDto_templateFileName= $tmplateBasePath + $entryDto_tempName +".txt"
 
 # -----------------------------------------------------------------------------------------------------
 
- d:\git\src\csharpcodegenerator\bin\debug\ccg.exe -f $returndto_filefullname  -t $returndto_templatefilename -p $projectfile -a $returndto_argument
- d:\git\src\csharpcodegenerator\bin\debug\ccg.exe -f $entrydto_filefullname  -t $entrydto_templatefilename -p $projectfile -a $entrydto_argument
-
- d:\git\src\csharpcodegenerator\bin\debug\ccg.exe -f $QueryInterface_filefullname  -t $Queryinterface_templatefilename -p $projectfile -a $Queryinterface_argument
- d:\git\src\csharpcodegenerator\bin\debug\ccg.exe -f $Queryimplementation_filefullname  -t $Queryimplementation_templatefilename -p $projectfile -a $Queryimplementation_argument
+ d:\GitProjects\src\csharpcodegenerator\bin\debug\ccg.exe gdf -f $returndto_filefullname  -t $returndto_templatefilename -p $projectfile -a $returndto_argument
+ d:\GitProjects\src\csharpcodegenerator\bin\debug\ccg.exe gdf -f $entrydto_filefullname  -t $entrydto_templatefilename -p $projectfile -a $entrydto_argument
+ d:\GitProjects\src\csharpcodegenerator\bin\debug\ccg.exe gdf -f $QueryInterface_filefullname  -t $Queryinterface_templatefilename -p $projectfile -a $Queryinterface_argument
+ d:\GitProjects\src\csharpcodegenerator\bin\debug\ccg.exe gdf -f $Queryimplementation_filefullname  -t $Queryimplementation_templatefilename -p $projectfile -a $Queryimplementation_argument
