@@ -14,11 +14,13 @@ $projectFile= "C:\Users\jafar\Source\Repos\BCMLogic core\BcmWebExtension\Model\M
 #"C:\Users\jafar\Documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.csproj"
 $tmplateBasePath = "D:\DeveloperAssistant\ccgTemplate\"
 $baseNameSpace ="Model."
+
 #------------------------------------------------------------------------------------------------------------------------
 $QueryInterface_tempName="QueriesInterfaceTmpl"
 $QueryImplementation_tempName="QueriesImplementationTmpl"
 $returnDto_tempName="DtoTempl"
 $entryDto_tempName="DtoTempl"
+
 # -------------------------------------------Rerturn DTO MODEL----------------------------------------------------------
 
 $returnDto_dirctoryName = $DTOBasedirctoryName
