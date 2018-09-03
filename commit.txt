@@ -1,0 +1,9 @@
+git add .
+
+git commit -m "update xmind files"
+
+git push --set-upstream  https://github.com/ArtisticProgramming/CSharpCodeGenerator.git master
+
+git pull  https://github.com/ArtisticProgramming/CSharpCodeGenerator.git 
+
+username = ArtisticProgramming
