@@ -26,7 +26,8 @@ namespace CSharpCodeGenerator.Infrastructure.Base
                         throw new ArgumentNullException("Project Path is not defined");
                     }
 
-                    Project = new Microsoft.Build.Evaluation.Project(ProjectPath);
+                    Project = new Microsoft.Build.Evaluation.Project(ProjectPath,null, "14.0");
+                    var zz =Project.ToolsVersion;
                 }
             }
             catch (Exception ex)

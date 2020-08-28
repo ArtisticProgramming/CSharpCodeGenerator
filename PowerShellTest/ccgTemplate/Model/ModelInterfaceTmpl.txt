@@ -1,0 +1,10 @@
+using Model.DTO;
+using Model.Models.Interfaces;
+
+namespace @<ns>
+{
+    public interface @<in> : IModel<@<dbModel>, @<modeldto>>
+    {
+      
+    }
+}

@@ -54,3 +54,9 @@ D:\git\src\CSharpCodeGenerator\bin\Debug\Unity.Interception.Configuration.pdb
 D:\git\src\CSharpCodeGenerator\bin\Debug\Unity.RegistrationByConvention.pdb
 D:\git\src\CSharpCodeGenerator\bin\Debug\Unity.ServiceLocation.pdb
 D:\git\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CopyComplete
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe.config
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\Newtonsoft.Json.dll

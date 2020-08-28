@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCodeGenerator", "CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testProj", "testProj\testProj.csproj", "{1FCE9315-8C86-4A6B-AE8C-2E69D9FD4FDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGeneratorGUI", "CodeGeneratorGUI\CodeGeneratorGUI.csproj", "{EC92D0A2-C1E3-47A6-A668-7387A3DB5843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{4932E4C2-B32A-4BC7-A1BA-67DD7452C42A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{1FCE9315-8C86-4A6B-AE8C-2E69D9FD4FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCE9315-8C86-4A6B-AE8C-2E69D9FD4FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCE9315-8C86-4A6B-AE8C-2E69D9FD4FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC92D0A2-C1E3-47A6-A668-7387A3DB5843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC92D0A2-C1E3-47A6-A668-7387A3DB5843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC92D0A2-C1E3-47A6-A668-7387A3DB5843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC92D0A2-C1E3-47A6-A668-7387A3DB5843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC92D0A2-C1E3-47A6-A668-7387A3DB5843} = {4932E4C2-B32A-4BC7-A1BA-67DD7452C42A}
 	EndGlobalSection
 EndGlobal

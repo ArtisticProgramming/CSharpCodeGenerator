@@ -6,11 +6,8 @@ $DTOBasedirctoryName="PolicyException2"
 $EntryDTOFileName="PolicyException222QueryDto"
 
 #--------------------------------------------------------------APLICATION START---------------------------------------------
-$projectFile= "C:\Users\jafar\Source\Repos\BCMLogic core\BcmWebExtension\Model\Model.csproj"
-
-#"C:\Users\jafar\Documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.csproj"
-
-$tmplateBasePath = "D:\GitProjects\CSharpCodeGenerator\PowerShellTest\ccgTemplate\"
+$projectFile= "D:\BCMProject\BcmWebExtension\Model\Model.csproj"
+$tmplateBasePath = "D:\GitProject\CSharpCodeGenerator\PowerShellTest\ccgTemplate\"
 $baseNameSpace ="Model."
 #------------------------------------------------------------------------------------------------------------------------
 $CommandsInterface_tempName="CommandsInterfaceTmpl"
@@ -68,6 +65,6 @@ $entryDto_fileFullName = $entryDto_fileDirectoryPath + $entryDto_fileName+".cs"
 $entryDto_templateFileName= $tmplateBasePath + $entryDto_tempName +".txt"
 
 ################################################################_EXECUTION_####################################################
-D:\GitProjects\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gdf -f $entrydto_filefullname  -t $entrydto_templatefilename -p $projectfile -a $entrydto_argument
-D:\GitProjects\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gdf -f $CommandsInterface_filefullname  -t $Commandsinterface_templatefilename -p $projectfile -a $Commandsinterface_argument
-D:\GitProjects\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gdf -f $Commandsimplementation_filefullname  -t $Commandsimplementation_templatefilename -p $projectfile -a $Commandsimplementation_argument
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gdf -f $entrydto_filefullname  -t $entrydto_templatefilename -p $projectfile -a $entrydto_argument
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gdf -f $CommandsInterface_filefullname  -t $Commandsinterface_templatefilename -p $projectfile -a $Commandsinterface_argument
+D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe gdf -f $Commandsimplementation_filefullname  -t $Commandsimplementation_templatefilename -p $projectfile -a $Commandsimplementation_argument

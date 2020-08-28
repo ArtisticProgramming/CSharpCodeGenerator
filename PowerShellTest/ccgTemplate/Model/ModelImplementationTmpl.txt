@@ -1,0 +1,18 @@
+using System.Linq;
+using AutoMapper;
+using Model.DTO;
+using Model.Initialization;
+using Model.Models.Interfaces;
+using Model.Models.Implementation;
+using Model.Models;
+
+namespace @<ns>
+{
+    public class @<cl> : Model<@<dbModel>, @<modeldto>>, @<in>
+    {
+        public @<cl>()
+        {
+            AutoMapperInitialization.Initialize();
+        }
+    }
+}

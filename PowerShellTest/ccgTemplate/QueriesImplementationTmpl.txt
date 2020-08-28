@@ -18,7 +18,12 @@ namespace @<ns>
 
         public @<returndto> Execute(@<entrydto> dto)
         {
-           
+            var model = new @<returndto>();
+
+
+
+
+            return model;
         }
     }
 }

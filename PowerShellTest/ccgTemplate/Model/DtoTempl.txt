@@ -1,0 +1,10 @@
+using Model.Queries.Interfaces;
+
+namespace @<ns>
+{
+    public class @<cl>
+    {
+
+     
+    }
+}

@@ -119,9 +119,6 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
             {
                 throw new Exception("Arguments sign is not valid");
             }
-
-
-
         }
 
         public string GetContent(string templateFilePath)

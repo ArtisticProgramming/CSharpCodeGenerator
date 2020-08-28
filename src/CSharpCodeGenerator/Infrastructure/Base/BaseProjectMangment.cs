@@ -15,7 +15,7 @@ namespace CSharpCodeGenerator.Infrastructure.Base
                 path = @"\" + path;
 
             var fullPathProject = (ProjectDirectoryPath + path).Replace(@"\\", @"\");
-            return fullPathProject;
+            return fullPathProject;            
         }
 
         protected void CreateFile(string fullPath, string content)

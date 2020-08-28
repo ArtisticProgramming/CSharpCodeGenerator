@@ -14,10 +14,12 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
         public string GenerateCode(Template template)
         {
             var tempalteText = template.Content;
+
             foreach (var item in template.Argument)
             {
                 tempalteText = tempalteText.Replace(template.ArgumentStartSign+ item.Key+ template.ArgumentEndSign, item.Value);
             }
+
             var generatedCode = tempalteText;
             return generatedCode;
         }   

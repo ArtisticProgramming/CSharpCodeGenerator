@@ -12,6 +12,7 @@ namespace CSharpCodeGenerator.Core
         {
             Argument = new Dictionary<string, string>();
         }
+
         public string Name { get; set; }
         public string StoragePath { get; set; }
         public string ArgumentStartSign { get; set; }
