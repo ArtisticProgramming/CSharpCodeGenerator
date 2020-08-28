@@ -20,7 +20,7 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
             get; set;
         }
 
-        public void AddFile(string filePath, string content)
+    public void AddFile(string filePath, string content)
         {
             var FullPath = GetFullPath(Project.DirectoryPath, filePath);
             FileInfo realfile = new FileInfo(FullPath);
