@@ -12,7 +12,12 @@ namespace CSharpCodeGenerator
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("----------------Welcome To CCG-------------");
+
+            foreach (var item in args)
+            {
+                Console.WriteLine(item);
+            }
             var result = CommandLine.Parser.Default.ParseArguments<GeneratFileOptions, GeneratFileDotNetProjOptions>(args)
                 .WithNotParsed(errs => HandleParseError(errs))
                 .MapResult(

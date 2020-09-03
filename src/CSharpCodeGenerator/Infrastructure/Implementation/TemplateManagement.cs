@@ -101,7 +101,7 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
         {
             if (IsTemplateExist(templateFilePath) == false)
             {
-                throw new Exception("Template File is not exist.");
+                throw new Exception("Template File dose not exist in this Path: "+ templateFilePath);
             }
             if (string.IsNullOrEmpty(fileName))
             {

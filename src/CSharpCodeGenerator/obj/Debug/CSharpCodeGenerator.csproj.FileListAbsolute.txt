@@ -60,3 +60,11 @@ D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
 D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
 D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
 D:\GitProject\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe.config
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CoreCompileInputs.cache
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CopyComplete
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
+C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
