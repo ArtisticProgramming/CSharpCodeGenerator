@@ -14,7 +14,7 @@ sep = ","
 
 def executor(OutPutPath, TemplatePath, OutPutBasePath, paramArray):
     param = sep.join(paramArray)
-    command = GlobalConfig.ccgPath+" gdf -f "+OutPutPath + \
+    command = CodeGeneratorConfig.ccgPath+" gdf -f "+OutPutPath + \
         " -t "+TemplatePath+" -p "+OutPutBasePath+" -a " + param
     print("command ===> "+command)
     process = subprocess.Popen(["powershell", command], stdout=subprocess.PIPE)

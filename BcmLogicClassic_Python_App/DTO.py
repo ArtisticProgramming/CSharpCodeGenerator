@@ -5,7 +5,7 @@ def genarateDtoClass(BaseName, nameSpace):
     print(__name__)
 
     OutPutBasePath = ProjPathConfig.outPutBasePath
-    TemplatePath = GlobalConfig.templatesBaseForlder+r"\DtoTempl.txt"
+    TemplatePath = TemplateConfig.templatesBaseForlder+r"\DtoTempl.txt"
 
     OutPutPath = ProjPathConfig.DTOProjPath +'\\'+ nameSpace +'\\'+BaseName+".cs"
 

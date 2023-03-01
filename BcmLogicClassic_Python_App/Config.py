@@ -1,13 +1,12 @@
 import pathlib
 
 
-class GlobalConfig:
+class CodeGeneratorConfig:
     ccgPath = r"C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe"
+
+class TemplateConfig:
     templatesBaseForlder = str(pathlib.Path(
         'ExecuterModule.py').parent.resolve()) + r"\Templates"
-    CommandsImplementationTmpl = templatesBaseForlder + r"\CommandsImplementationTmpl"
-    CommandsInterfaceTmpl = templatesBaseForlder + r"\CommandsInterfaceTmpl"
-
 
 class AppConfig:
     ModelProjectBaseNamespace = "Model."

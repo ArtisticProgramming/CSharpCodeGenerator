@@ -10,7 +10,7 @@ def genarateClass(BaseName, nameSpace, entrydto, returndto):
     OutPutPath = ProjPathConfig.QueryClassProjPath  +'\\'+ nameSpace+'\\'+"Get"+BaseName+"Query"+".cs"
     OutPutBasePath = ProjPathConfig.outPutBasePath
 
-    TemplatePath = GlobalConfig.templatesBaseForlder + \
+    TemplatePath = TemplateConfig.templatesBaseForlder + \
         r"\QueriesImplementationTmpl.txt"
 
 
@@ -29,7 +29,7 @@ def genarateInerface(BaseName, nameSpace, entrydto, returndto):
     print(__name__)
 
     OutPutBasePath =ProjPathConfig.outPutBasePath
-    TemplatePath = GlobalConfig.templatesBaseForlder+r"\QueriesInterfaceTmpl.txt"
+    TemplatePath = TemplateConfig.templatesBaseForlder+r"\QueriesInterfaceTmpl.txt"
 
     OutPutPath =   ProjPathConfig.QueryInterfaceProjPath +'\\'+ nameSpace + '\\'+"IGet"+BaseName+"Query"+".cs"
 

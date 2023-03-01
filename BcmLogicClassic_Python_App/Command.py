@@ -5,8 +5,8 @@
 # def genarateCommandClass(BaseName, nameSpace, entrydto):
 #     print(__name__)
 
-#     OutPutBasePath = GlobalConfig.outPutBasePath
-#     TemplatePath = GlobalConfig.templatesBaseForlder + \
+#     OutPutBasePath = TemplateConfig.outPutBasePath
+#     TemplatePath = TemplateConfig.templatesBaseForlder + \
 #         r"\CommandsImplementationTmpl.txt"
 
 #     OutPutPath = '\\'+BaseName+"Command"+".cs"
@@ -23,8 +23,8 @@
 # def genarateCommandInerface(BaseName, nameSpace, entrydto):
 #     print(__name__)
 
-#     OutPutBasePath = GlobalConfig.outPutBasePath
-#     TemplatePath = GlobalConfig.templatesBaseForlder+r"\CommandsInterfaceTmpl.txt"
+#     OutPutBasePath = TemplateConfig.outPutBasePath
+#     TemplatePath = TemplateConfig.templatesBaseForlder+r"\CommandsInterfaceTmpl.txt"
 
 #     OutPutPath = '\\'+"I"+BaseName+"Command"+".cs"
 
@@ -48,7 +48,7 @@ def genarateClass(BaseName, nameSpace, entrydto, returndto):
     OutPutPath = ProjPathConfig.CommandClassProjPath  +'\\'+ nameSpace+'\\'+BaseName+"Command"+".cs"
     OutPutBasePath = ProjPathConfig.outPutBasePath
 
-    TemplatePath = GlobalConfig.templatesBaseForlder + \
+    TemplatePath = TemplateConfig.templatesBaseForlder + \
         r"\QueriesImplementationTmpl.txt"
 
 
@@ -66,7 +66,7 @@ def genarateInerface(BaseName, nameSpace, entrydto, returndto):
     print(__name__)
 
     OutPutBasePath =ProjPathConfig.outPutBasePath
-    TemplatePath = GlobalConfig.templatesBaseForlder+r"\QueriesInterfaceTmpl.txt"
+    TemplatePath = TemplateConfig.templatesBaseForlder+r"\QueriesInterfaceTmpl.txt"
 
     OutPutPath =   ProjPathConfig.CommandInterfaceProjPath +'\\'+ nameSpace + '\\'+"I"+BaseName+"Command"+".cs"
 
