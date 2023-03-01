@@ -1,0 +1,108 @@
+@using BcmWebExtension.RolesProvider
+@using Model.Resources
+
+<style>
+
+
+    .dataTables_scrollHead {
+        overflow: initial !important;
+    }
+
+    .dataTables_scrollHeadInner {
+        width: 100% !important;
+    }
+
+    table.dataTable {
+        width: 100% !important;
+    }
+
+    .dataTables_scrollBody {
+        height: 100% !important;
+    }
+</style>
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-highlight table-checkable"
+           data-provide="ajax-datatable"
+           data-url="@Url.Action("-----------", "-----------")"
+           data-display-rows="50"
+           data-paginate="true"
+           data-init-filters="true"
+           data-server-side="true"
+           data-header-height="150"
+           id="-----------">
+        <thead style="background: #FFF;">
+            <tr>
+                <th data-filterable="true" data-sortable="true" width="70">
+                    Id
+                </th>
+
+                <th data-filterable="true" data-sortable="true" width="70">
+                    @Shared.Name
+                </th>
+
+                @*<th data-filterable="true" data-sortable="true" width="70">
+                    @Vendor.Address
+                </th>
+
+                <th data-filterable="true" data-sortable="true" width="70">
+                    @Shared.Type
+                </th>
+
+                <th data-filterable="true" data-sortable="true" width="70">
+                    @Shared.Status
+                </th>
+
+                <th data-filterable="true" data-sortable="true" width="70">
+                    Tax Number
+                </th>*@
+
+
+                <th width="20px">
+                </th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+    BcmLib.initConfig = {
+        rowClass: 'vendor-entry',
+        columns: [
+           { data: "Id", searchable: true, name: "Id" },
+           { data: "Name", searchable: true, name: "Name" },
+           //{ data: "Address", searchable: true, name: "Address" },
+           //{ data: "VendorType", searchable: true, name: "VendorType" },
+           // { data: "VendorStatus", searchable: true, name: "VendorStatus" },
+           // { data: "TaxNumber", searchable: true, name: "TaxNumber" },
+
+            {
+                data: null,
+                type: 'display',
+                render: function (value, type, record, meta) {
+
+                    return '<a class="sett_icon modal_medium_trigger" atomicpermission="' + '@AtomicPermission.VendorAddOrEdit.ToString()' + '" title="@Vendor.EditVendor"  href="@Url.Content("~/Vendor/VendorAddOrEdit?q=")' + record.LinkEncypted + '"><i class="fa fa-cog"></i></a>' +
+                            '<a class="sett_icon modal_medium_trigger" atomicpermission="' + '@AtomicPermission.VendorDelete.ToString()' + '" title="@Vendor.DeleteVendor"  href="@Url.Content("~/Vendor/VendorDelete?q=")' + record.LinkEncypted + '"><i class="fa fa-times"></i></a>';
+
+                }
+            }
+        ]
+    };
+
+    //$('#vendorTable tbody').on('click', 'tr', function () {
+    //    selectedVendor = 0;
+    //    $('#vendorTable').find('.active-entry').each(function () {
+    //        $(this).removeClass("active-entry");
+    //    });
+    //    $(this).toggleClass('active-entry');
+    //});
+
+    //$('#vendorTable').on('page.dt', function () {
+    //    selectedVendor = 0;
+    //    $('#vendorTable').find('.active-entry').each(function () {
+    //        $(this).removeClass("active-entry");
+    //    });
+    //});
+
+
+</script>

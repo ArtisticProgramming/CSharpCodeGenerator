@@ -68,3 +68,13 @@ C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerato
 C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CopyComplete
 C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
 C:\home\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe.config
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.AssemblyReference.cache
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.SuggestedBindingRedirects.cache
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CopyComplete
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
+C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb

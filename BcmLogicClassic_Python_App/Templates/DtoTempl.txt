@@ -1,0 +1,15 @@
+using Model.Queries.Interfaces;
+using Model.DTO.Models;
+
+namespace @<ns>
+{
+    public class @<cl>: IQueryDto,IModelDto
+    {
+
+
+        public long UserId { get; set; }
+        public bool IsAdmin { get; set; }
+        public long? LoggedUserId { get; set; }
+        public string LoggedUserName { get; set; }
+    }
+}

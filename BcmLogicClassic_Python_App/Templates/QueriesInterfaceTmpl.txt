@@ -1,0 +1,9 @@
+using Model.DTO.Models.Shared;
+
+namespace @<ns>
+{
+    public interface @<in> : IQuery<@<returndto>, @<entrydto>>
+    {
+
+    }
+}

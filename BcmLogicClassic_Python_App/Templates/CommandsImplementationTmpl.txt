@@ -1,0 +1,27 @@
+using System.Linq;
+using System.Data.Entity;
+using AutoMapper;
+using StructureMap;
+using System;
+
+namespace @<ns>
+{
+    public class @<cl>: Command<@<entrydto>>, @<in>
+    {
+        public @<cl>(BcmSite2Entities context) : base(context)
+        {
+        }
+
+        public override CommandResult ExecuteWithCommit(@<entrydto> dto)
+        {
+            var result = new CommandResult()
+            {
+                Success = false
+            };
+
+
+            result.Success = true;
+            return result;
+        }
+    }
+}
