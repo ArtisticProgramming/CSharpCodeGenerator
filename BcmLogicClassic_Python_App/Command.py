@@ -42,7 +42,7 @@ import Utilities as util
 import DTO as dto
 
 
-def genarateClass(BaseName, nameSpace, entrydto, returndto):
+def genarateClass(BaseName, nameSpace, entrydto):
     print(__name__)
 
     OutPutPath = ProjPathConfig.CommandClassProjPath  +'\\'+ nameSpace+'\\'+BaseName+"Command"+".cs"
@@ -61,8 +61,7 @@ def genarateClass(BaseName, nameSpace, entrydto, returndto):
     exe.executor(OutPutPath, TemplatePath, OutPutBasePath, paramArray)
     # exe.OpenFolder(OutPutBasePath+OutPutPath)
 
-
-def genarateInerface(BaseName, nameSpace, entrydto, returndto):
+def genarateInerface(BaseName, nameSpace, entrydto):
     print(__name__)
 
     OutPutBasePath =ProjPathConfig.outPutBasePath
@@ -76,7 +75,6 @@ def genarateInerface(BaseName, nameSpace, entrydto, returndto):
     paramArray.append(exe.MakeParam("in", "I"+BaseName+"Command"))
     paramArray.append(exe.MakeParam("entrydto", entrydto))
     exe.executor(OutPutPath, TemplatePath, OutPutBasePath, paramArray)
-
 
 def CreateCommand(baseName,nameSpace, dtoClass):
     genarateClass(baseName, nameSpace, dtoClass)
