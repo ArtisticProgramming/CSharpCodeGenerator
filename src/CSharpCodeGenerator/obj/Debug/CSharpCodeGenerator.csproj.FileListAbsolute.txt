@@ -78,3 +78,12 @@ C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\De
 C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CopyComplete
 C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
 C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe.config
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.exe
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\bin\Debug\ccg.pdb
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.AssemblyReference.cache
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\CSharpCo.E4D1DD07.Up2Date
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.pdb
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\CSharpCodeGenerator\obj\Debug\ccg.exe.config

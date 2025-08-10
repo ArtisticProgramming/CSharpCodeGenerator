@@ -1,0 +1,22 @@
+using Zamin.Core.ApplicationServices.Queries;
+using Zamin.Core.RequestResponse.Queries;
+using Zamin.Utilities;
+
+namespace @<ns>;
+
+public class @<cl> : QueryHandler<@<querydto>, @<returndto>?>
+{
+    //private readonly IBlogQueryRepository _blogQueryRepository;
+
+    public @<cl>(ZaminServices zaminServices) : base(zaminServices)
+    {
+        //_blogQueryRepository = blogQueryRepository;
+    }
+
+    public override async Task<QueryResult<@<returndto>>> Handle(@<querydto> query)
+    {
+        var result = new @<returndto>();
+
+        return Result(result);
+    }
+}

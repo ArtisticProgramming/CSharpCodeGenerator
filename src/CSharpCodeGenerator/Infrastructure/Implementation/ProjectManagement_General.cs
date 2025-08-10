@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSharpCodeGenerator.Infrastructure.Implementation
 {
-    
+
     class ProjectManagement_General : BaseProjectMangment, IProjectManagment
     {
         public ProjectManagement_General(string projectFolder)
@@ -20,17 +20,21 @@ namespace CSharpCodeGenerator.Infrastructure.Implementation
 
         public void AddFile(string filePath, string content)
         {
-            var FullPath = GetFullPath(ProjectPath, filePath);
-            FileInfo realfile = new FileInfo(FullPath);
+            string fullPath = Path.IsPathRooted(filePath)
+                                ? filePath
+                                : GetFullPath(ProjectPath, filePath);
+            FileInfo realfile = new FileInfo(fullPath);
             var directoryName = filePath.Replace(realfile.Name, "");
             AddFolder(directoryName);
-            CreateFile(FullPath, content);
+            CreateFile(fullPath, content);
         }
 
         public void AddFolder(string path)
         {
-            var projectFullPath = GetFullPath(ProjectPath, path);
-            CreateFolder(projectFullPath);
+            string fullPath = Path.IsPathRooted(path)
+                              ? path
+                              : GetFullPath(ProjectPath, path);
+            CreateFolder(fullPath);
         }
 
         public void RemoveFile(string filePath)

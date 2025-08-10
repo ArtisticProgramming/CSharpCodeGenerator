@@ -26,10 +26,20 @@ namespace CSharpCodeGenerator.Infrastructure.Base
             }
         }
 
+
         protected void CreateFolder(string projectFullPath)
         {
-            if (Directory.Exists(projectFullPath) == false)
-                Directory.CreateDirectory(projectFullPath);
+            if (string.IsNullOrWhiteSpace(projectFullPath))
+                throw new ArgumentException("projectFullPath cannot be null or empty", nameof(projectFullPath));
+
+            string fullPath = Path.IsPathRooted(projectFullPath)
+                ? Path.GetFullPath(projectFullPath)
+                : Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, projectFullPath));
+
+            if (!Directory.Exists(fullPath))
+            {
+                Directory.CreateDirectory(fullPath);
+            }
         }
     }
 }

@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>gdf -f \Views\Vendor\_TransparentDataApi_p.cshtml -t D:\GitProject\CSharpCodeGenerator\PowerShellTest\ccgTemplate\ListView.txt -p C:\Users\jafar\Source\Repos\BCMLogic core\BcmWebExten
-sion\BcmWebExtension\BcmWebExtension.csproj -a ns:1</StartArguments>
+    <StartArguments>gf -f C:\Users\World\Documents\GitHub\Zamin\Onion\sample\1.Core\MiniBlog.Core.RequestResponse\Blogs\HelloApiRequest.cs -t C:\Users\World\Documents\GitHub\CSharpCodeGenerator\RithonZamin_Python_App\Templates\query\QueryRequestTmpl.txt -p C:\Users\World\Documents\GitHub\Zamin\Onion\sample\1.Core\MiniBlog.Core.RequestResponse -a ns:MiniBlog.Core.RequestResponse.Blogs,cl:HelloApiRequest,returndto:HelloApiResponse</StartArguments>
   </PropertyGroup>
 </Project>

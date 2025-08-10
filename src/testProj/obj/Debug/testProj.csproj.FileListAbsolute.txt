@@ -29,3 +29,9 @@ C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testPro
 C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.csproj.CoreCompileInputs.cache
 C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.dll
 C:\Users\RED\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.pdb
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\testProj\bin\Debug\testProj.dll
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\testProj\bin\Debug\testProj.pdb
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.csproj.AssemblyReference.cache
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.csproj.CoreCompileInputs.cache
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.dll
+C:\Users\World\Documents\GitHub\CSharpCodeGenerator\src\testProj\obj\Debug\testProj.pdb
